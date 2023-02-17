@@ -1,0 +1,41 @@
+===================================
+
+Student account (Type 1):
+
+name (fixed)
+id (fixed, unique)
+password (changeable)
+Have 1 IP & Mac address (fixed, unique)
+
+Student:
+- Login 
+- Check-in (time, class) - Nhân 
+- Check check-in history - Nhân 
+- Change password
+
+=====================================
+
+Teacher Account (Type 2):
+
+name
+password
+class lists
+Students account list
+
+Teacher:
+- Login
+- Change password 
+- Select class (show attendance list)
+- import class list & generate accounts for students
+- edit registered mac address of students. - Nhân 
+- Start/Stop class (session) - Nhân 
+- Start/Stop checking attendance - Nhân 
+- Save attendance list of the session (delete attendance check if student miss a attendance check). - Nhân
+- Modify attendance 
+- Export attendance list of selected class & session info. 
+
+=====================================
+
+Class:
+Students List: (Name/ ID/ mail/ account)
+Attendance List: (Name/ ID/ Time/ Time/ ...)
